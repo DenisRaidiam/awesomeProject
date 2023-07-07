@@ -1,0 +1,75 @@
+[
+  {
+    "OrganisationId": "3aaaf8f5-7ad0-471f-ab82-6099e4f5ec82",
+    "Status": "Active",
+    "OrganisationName": "Raidiam Services Limited IDPs",
+    "CreatedOn": "2023-07-04T14:59:52.150Z",
+    "LegalEntityName": "Raidiam Services Limited IDPs",
+    "CountryOfRegistration": "UK",
+    "CompanyRegister": "Raidiam",
+    "Tag": [],
+    "Size": "",
+    "RegistrationNumber": "12345678909",
+    "RegistrationId": "",
+    "RegisteredName": "Raidiam Services Limited IDPs",
+    "AddressLine1": "Hollyrood",
+    "AddressLine2": "",
+    "City": "Edinburgh",
+    "Postcode": "EH1 ABC",
+    "Country": "UK",
+    "ParentOrganisationReference": "",
+    "AuthorisationServers": [
+      {
+        "AuthorisationServerId": "620d7e39-2f24-4b7c-bd1d-f7b72ea9e9a5",
+        "AutoRegistrationSupported": true,
+        "AutoRegistrationNotificationWebhook": "https://auth.bank1.directory.showcase.raidiam.io/ssonboard/webhook",
+        "SupportsCiba": false,
+        "SupportsDCR": false,
+        "SupportsRedirect": false,
+        "CustomerFriendlyDescription": "https://apiraidiam.authorisation.server",
+        "CustomerFriendlyLogoUri": "https://auth.bank1.directory.showcase.raidiam.io/logo.svg",
+        "CustomerFriendlyName": "Bank A",
+        "DeveloperPortalUri": "https://apiportal.raidiam.developer.authorisation",
+        "TermsOfServiceUri": "https://apidosnddonts",
+        "NotificationWebhookAddedDate": null,
+        "OpenIDDiscoveryDocument": "https://auth.bank1.directory.showcase.raidiam.io/.well-known/openid-configuration",
+        "Issuer": "https://auth.bank1.directory.showcase.raidiam.io",
+        "PayloadSigningCertLocationUri": "https://auth.bank1.directory.showcase.raidiam.io",
+        "CreatedAt": 1688590776.000000000,
+        "ParentAuthorisationServerId": null,
+        "DeprecatedDate": null,
+        "RetirementDate": null,
+        "SupersededByAuthorisationServerId": null,
+        "ApiResources": [],
+        "AuthorisationServerCertifications": []
+      }
+    ],
+    "OrgDomainClaims": [
+      {
+        "AuthorisationDomainName": "Open Banking",
+        "AuthorityName": "OBIE",
+        "RegistrationId": "12345678",
+        "Status": "Active"
+      }
+    ],
+    "OrgDomainRoleClaims": [
+      {
+        "Status": "Active",
+        "AuthorisationDomain": "Open Banking",
+        "Role": "ASPSP",
+        "RegistrationId": "123456789",
+        "Authorisations": [],
+        "RoleType": "Federation",
+        "Exclusive": false,
+        "Metadata": [
+          {
+            "MetadataId": "1b9dd740-f8e7-444c-a781-8f4fb02faa45",
+            "DomainRoleName": "ASPSP",
+            "Type": "scope",
+            "Name": "directory:software"
+          }
+        ]
+      }
+    ]
+  }
+]
